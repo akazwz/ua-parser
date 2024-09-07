@@ -1,0 +1,29 @@
+{
+  "name": "ua-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:http": "nodemon src/http.ts",
+    "dev:grpc": "nodemon src/grpc.ts",
+    "build": "tsc",
+    "start:http": "node src/http.js",
+    "start:grpc": "node src/grpc.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.11.2",
+    "@hono/node-server": "^1.12.2",
+    "hono": "^4.5.11",
+    "protobufjs": "^7.4.0",
+    "ua-parser-js": "2.0.0-beta.3"
+  }
+}
