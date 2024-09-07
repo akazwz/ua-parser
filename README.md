@@ -1,6 +1,10 @@
-### User Agent Parser Http and Grpc Service
+## User Agent Parser Service supported both http and grpc
 
-### Response
+
+### http: hono
+### grpc: grpcjs for server and buf for protobuf management and code generation
+
+### example response
 
 ````json
 {
@@ -28,3 +32,5 @@
     }
 }
 ````
+
+if you like this project, please give me a star, thank you!
